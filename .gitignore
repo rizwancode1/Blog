@@ -1,0 +1,80 @@
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+.DS_Store
+.env
+**/settings/local.py
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+/.vscode/
+
+# coverage result
+.coverage
+/coverage/
+
+# pycharm
+.idea/
+
+# data
+*.dump
+
+# npm
+node_modules/
+npm-debug.log
+
+# Webpack
+/frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+# General
+/backend/venv/
+/venv/
+/env/
+/output/
+/cache/
+/backend/media/
+boilerplate.zip
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss
+
+# templated email
+tmp_email/
+
+.direnv
+.envrc
+.tool-versions
+
+
+#other
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
