@@ -36,6 +36,3 @@ For the frontend:
 2. Install the required Node.js packages using `npm install`.
 3. Start the React development server using `npm start`.
 
-## Contributors
-
-- [Your Name](https://github.com/your_username)
